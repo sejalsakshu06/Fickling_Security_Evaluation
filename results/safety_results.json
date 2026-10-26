@@ -1,0 +1,124 @@
+{
+    "severity": "LIKELY_UNSAFE",
+    "analysis": "`from sklearn.linear_model._base import LinearRegression` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy._core.multiarray import _reconstruct` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy import ndarray` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy import dtype` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy._core.multiarray import scalar` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\nCall to `LinearRegression.__new__(...)` can execute arbitrary code and is inherently unsafe\nCall to `_reconstruct(...)` can execute arbitrary code and is inherently unsafe\nCall to `dtype('O8', False, True)` can execute arbitrary code and is inherently unsafe\nCall to `dtype('f8', False, True)` can execute arbitrary code and is inherently unsafe\nCall to `scalar(...)` can execute arbitrary code and is inherently unsafe",
+    "detailed_results": {
+        "AnalysisResult": {
+            "NonStandardImports": "from numpy._core.multiarray import scalar",
+            "OvertlyBadEval": "scalar(...)"
+        }
+    }
+}{
+    "severity": "LIKELY_UNSAFE",
+    "analysis": "`from sklearn.linear_model._base import LinearRegression` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy._core.multiarray import _reconstruct` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy import ndarray` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy import dtype` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy._core.multiarray import scalar` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\nCall to `LinearRegression.__new__(...)` can execute arbitrary code and is inherently unsafe\nCall to `_reconstruct(...)` can execute arbitrary code and is inherently unsafe\nCall to `dtype('O8', False, True)` can execute arbitrary code and is inherently unsafe\nCall to `dtype('f8', False, True)` can execute arbitrary code and is inherently unsafe\nCall to `scalar(...)` can execute arbitrary code and is inherently unsafe",
+    "detailed_results": {
+        "AnalysisResult": {
+            "NonStandardImports": "from numpy._core.multiarray import scalar",
+            "OvertlyBadEval": "scalar(...)"
+        }
+    }
+}{
+    "severity": "LIKELY_UNSAFE",
+    "analysis": "`from sklearn.linear_model._base import LinearRegression` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy._core.multiarray import _reconstruct` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy import ndarray` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy import dtype` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy._core.multiarray import scalar` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\nCall to `LinearRegression.__new__(...)` can execute arbitrary code and is inherently unsafe\nCall to `_reconstruct(...)` can execute arbitrary code and is inherently unsafe\nCall to `dtype('O8', False, True)` can execute arbitrary code and is inherently unsafe\nCall to `dtype('f8', False, True)` can execute arbitrary code and is inherently unsafe\nCall to `scalar(...)` can execute arbitrary code and is inherently unsafe",
+    "detailed_results": {
+        "AnalysisResult": {
+            "NonStandardImports": "from numpy._core.multiarray import scalar",
+            "OvertlyBadEval": "scalar(...)"
+        }
+    }
+}{
+    "severity": "LIKELY_UNSAFE",
+    "analysis": "`from sklearn.linear_model._base import LinearRegression` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy._core.multiarray import _reconstruct` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy import ndarray` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy import dtype` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy._core.multiarray import scalar` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\nCall to `LinearRegression.__new__(...)` can execute arbitrary code and is inherently unsafe\nCall to `_reconstruct(...)` can execute arbitrary code and is inherently unsafe\nCall to `dtype('O8', False, True)` can execute arbitrary code and is inherently unsafe\nCall to `dtype('f8', False, True)` can execute arbitrary code and is inherently unsafe\nCall to `scalar(...)` can execute arbitrary code and is inherently unsafe",
+    "detailed_results": {
+        "AnalysisResult": {
+            "NonStandardImports": "from numpy._core.multiarray import scalar",
+            "OvertlyBadEval": "scalar(...)"
+        }
+    }
+}{
+    "severity": "LIKELY_UNSAFE",
+    "analysis": "`from sklearn.linear_model._base import LinearRegression` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy._core.multiarray import _reconstruct` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy import ndarray` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy import dtype` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy._core.multiarray import scalar` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\nCall to `LinearRegression.__new__(...)` can execute arbitrary code and is inherently unsafe\nCall to `_reconstruct(...)` can execute arbitrary code and is inherently unsafe\nCall to `dtype('O8', False, True)` can execute arbitrary code and is inherently unsafe\nCall to `dtype('f8', False, True)` can execute arbitrary code and is inherently unsafe\nCall to `scalar(...)` can execute arbitrary code and is inherently unsafe",
+    "detailed_results": {
+        "AnalysisResult": {
+            "NonStandardImports": "from numpy._core.multiarray import scalar",
+            "OvertlyBadEval": "scalar(...)"
+        }
+    }
+}{
+    "severity": "LIKELY_UNSAFE",
+    "analysis": "`from sklearn.linear_model._base import LinearRegression` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy._core.multiarray import _reconstruct` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy import ndarray` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy import dtype` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy._core.multiarray import scalar` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\nCall to `LinearRegression.__new__(...)` can execute arbitrary code and is inherently unsafe\nCall to `_reconstruct(...)` can execute arbitrary code and is inherently unsafe\nCall to `dtype('O8', False, True)` can execute arbitrary code and is inherently unsafe\nCall to `dtype('f8', False, True)` can execute arbitrary code and is inherently unsafe\nCall to `scalar(...)` can execute arbitrary code and is inherently unsafe",
+    "detailed_results": {
+        "AnalysisResult": {
+            "NonStandardImports": "from numpy._core.multiarray import scalar",
+            "OvertlyBadEval": "scalar(...)"
+        }
+    }
+}{
+    "severity": "LIKELY_UNSAFE",
+    "analysis": "`from sklearn.linear_model._base import LinearRegression` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy._core.multiarray import _reconstruct` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy import ndarray` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy import dtype` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy._core.multiarray import scalar` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\nCall to `LinearRegression.__new__(...)` can execute arbitrary code and is inherently unsafe\nCall to `_reconstruct(...)` can execute arbitrary code and is inherently unsafe\nCall to `dtype('O8', False, True)` can execute arbitrary code and is inherently unsafe\nCall to `dtype('f8', False, True)` can execute arbitrary code and is inherently unsafe\nCall to `scalar(...)` can execute arbitrary code and is inherently unsafe",
+    "detailed_results": {
+        "AnalysisResult": {
+            "NonStandardImports": "from numpy._core.multiarray import scalar",
+            "OvertlyBadEval": "scalar(...)"
+        }
+    }
+}{
+    "severity": "LIKELY_UNSAFE",
+    "analysis": "`from sklearn.linear_model._base import LinearRegression` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy._core.multiarray import _reconstruct` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy import ndarray` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy import dtype` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy._core.multiarray import scalar` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\nCall to `LinearRegression.__new__(...)` can execute arbitrary code and is inherently unsafe\nCall to `_reconstruct(...)` can execute arbitrary code and is inherently unsafe\nCall to `dtype('O8', False, True)` can execute arbitrary code and is inherently unsafe\nCall to `dtype('f8', False, True)` can execute arbitrary code and is inherently unsafe\nCall to `scalar(...)` can execute arbitrary code and is inherently unsafe",
+    "detailed_results": {
+        "AnalysisResult": {
+            "NonStandardImports": "from numpy._core.multiarray import scalar",
+            "OvertlyBadEval": "scalar(...)"
+        }
+    }
+}{
+    "severity": "OVERTLY_MALICIOUS",
+    "analysis": "`from sklearn.linear_model._base import LinearRegression` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy._core.multiarray import _reconstruct` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy import ndarray` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy import dtype` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from numpy._core.multiarray import scalar` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from builtins import eval` imports `eval` which can execute arbitrary code\nCall to `eval(...)` is almost certainly evidence of a malicious pickle file\nCall to `eval(...)` is almost certainly evidence of a malicious pickle file\nCall to `LinearRegression.__new__(...)` can execute arbitrary code and is inherently unsafe\nCall to `_reconstruct(...)` can execute arbitrary code and is inherently unsafe\nCall to `dtype('O8', False, True)` can execute arbitrary code and is inherently unsafe\nCall to `dtype('f8', False, True)` can execute arbitrary code and is inherently unsafe\nCall to `scalar(...)` can execute arbitrary code and is inherently unsafe\n`from builtins import eval` is suspicious and indicative of an overtly malicious pickle file\nVariable `_var0` is assigned value `eval(...)` but unused afterward; this is suspicious and indicative of a malicious pickle file",
+    "detailed_results": {
+        "AnalysisResult": {
+            "NonStandardImports": "from numpy._core.multiarray import scalar",
+            "UnsafeImportsML": "from builtins import eval",
+            "OvertlyBadEval": "scalar(...)",
+            "UnsafeImports": "from builtins import eval",
+            "UnusedVariables": "_var0: eval(...)"
+        }
+    }
+}{
+    "severity": "LIKELY_SAFE",
+    "analysis": "Warning: Fickling failed to detect any overtly unsafe code,but the pickle file may still be unsafe.Do not unpickle this file if it is from an untrusted source!\n\n",
+    "detailed_results": {}
+}{
+    "severity": "LIKELY_SAFE",
+    "analysis": "Warning: Fickling failed to detect any overtly unsafe code,but the pickle file may still be unsafe.Do not unpickle this file if it is from an untrusted source!\n\n",
+    "detailed_results": {}
+}{
+    "severity": "LIKELY_SAFE",
+    "analysis": "Warning: Fickling failed to detect any overtly unsafe code,but the pickle file may still be unsafe.Do not unpickle this file if it is from an untrusted source!\n\n",
+    "detailed_results": {}
+}{
+    "severity": "LIKELY_UNSAFE",
+    "analysis": "`from torch._utils import _rebuild_tensor_v2` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from torch import FloatStorage` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\nCall to `_rebuild_tensor_v2(...)` can execute arbitrary code and is inherently unsafe\nCall to `_var208.update(...)` can execute arbitrary code and is inherently unsafe\nCall to `_var210.update(...)` can execute arbitrary code and is inherently unsafe",
+    "detailed_results": {
+        "AnalysisResult": {
+            "NonStandardImports": "from torch import FloatStorage",
+            "OvertlyBadEval": "_var210.update(...)"
+        }
+    }
+}{
+    "severity": "LIKELY_SAFE",
+    "analysis": "Warning: Fickling failed to detect any overtly unsafe code,but the pickle file may still be unsafe.Do not unpickle this file if it is from an untrusted source!\n\n",
+    "detailed_results": {}
+}{
+    "severity": "LIKELY_UNSAFE",
+    "analysis": "`from __torch__ import Module` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from torch._utils import _rebuild_tensor_v2` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\n`from torch import FloatStorage` imports a Python module that is not a part of the standard library; this can execute arbitrary code and is inherently unsafe\nCall to `Module.__new__(Module)` can execute arbitrary code and is inherently unsafe\nCall to `_rebuild_tensor_v2(...)` can execute arbitrary code and is inherently unsafe",
+    "detailed_results": {
+        "AnalysisResult": {
+            "NonStandardImports": "from torch import FloatStorage",
+            "OvertlyBadEval": "_rebuild_tensor_v2(...)"
+        }
+    }
+}{
+    "severity": "LIKELY_SAFE",
+    "analysis": "Warning: Fickling failed to detect any overtly unsafe code,but the pickle file may still be unsafe.Do not unpickle this file if it is from an untrusted source!\n\n",
+    "detailed_results": {}
+}
+

@@ -1,0 +1,5 @@
+fickling==0.1.12
+pytest
+scikit-learn
+joblib
+torch
