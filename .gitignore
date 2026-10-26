@@ -1,8 +1,42 @@
+# Python virtual environments
 venv/
+.venv/
+env/
+ENV/
+
+# Python cache and compiled files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE settings
 .vscode/
 .idea/
-.DS_Store
+
+# Logs and temporary files
 *.log
 ~$*
+.DS_Store
+tempCodeRunnerFile.py
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# Type checking and linting
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/

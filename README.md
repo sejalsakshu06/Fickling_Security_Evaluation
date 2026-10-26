@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fickling Security Evaluation
 
 Hands-on security evaluation of [Fickling](https://github.com/trailofbits/fickling), an open-source tool for analyzing and protecting Python pickle-based machine-learning models.
@@ -123,3 +124,7 @@ Fickling_Security_Evaluation/
 └── tests/
     ├── test_fickling_load.py
     └── test_pytorch_injection.py
+=======
+# Fickling_Security_Evaluation
+Security evaluation of Python model serialization and loading using Fickling and PyTorch, including clean, malformed, and malicious model samples, automated security tests, and evaluation results.
+>>>>>>> e3f942d12a374361d533de5acb9e8919cd0b41c2
